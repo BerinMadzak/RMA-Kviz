@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aktivnosti.DodajPitanjeAkt">
+
+    <EditText
+        android:id="@+id/etNaziv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Naziv pitanja - INPUT"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Odgovori"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
+
+    <ListView
+        android:id="@+id/lvOdgovori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etOdgovor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Odgovor"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnDodajOdgovor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj" />
+
+    <Button
+        android:id="@+id/btnDodajTacan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj tacan" />
+
+    <Button
+        android:id="@+id/btnDodajPitanje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/element_tekst"
+        android:text="Spasi pitanje"
+        android:textColor="@color/element_margine" />
+</LinearLayout>

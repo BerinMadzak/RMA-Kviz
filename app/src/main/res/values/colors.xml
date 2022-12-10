@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7EBC6C</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="element_pozadina">#F6F7F8</color>
+    <color name="element_linije">#F4733D</color>
+    <color name="element_margine">#FFFFFF</color>
+    <color name="element_tekst">#67A4DA</color>
+    <color name="crvena">#FF3030</color>
+    <color name="zelena">#7FFF00</color>
+</resources>
